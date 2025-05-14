@@ -13,6 +13,6 @@ class Logger:
 # intances or object create
 log=Logger()
 
-#
+# destructor
 del log 
 
