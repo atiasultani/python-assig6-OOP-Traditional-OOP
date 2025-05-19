@@ -1,0 +1,13 @@
+# 10. Instance Methods
+# Assignment:
+# Create a class Dog with instance variables name and breed. Add an instance method bark() that prints a message including the dog's name.
+
+class Dog:
+    def __init__(self,name,breed):
+        self.name=name
+        self.breed=breed
+    def bark(self):
+        print(f"The dog {self.name} ,its breed is {self.breed} ")
+
+dog1=Dog("Tommy" , "wolf")
+dog1.bark()
